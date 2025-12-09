@@ -6,7 +6,7 @@ const officers = [
   },
   {
     role: "Vice President",
-    name: "Student Name",
+    name: "Prabina Shrestha",
     focus: "Event coordination",
   },
   {

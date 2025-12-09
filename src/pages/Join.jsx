@@ -13,12 +13,14 @@ export default function Join() {
       {/* Why Join */}
       <section className="space-y-6">
         <h2 className="text-3xl font-bold text-slate-900 text-center">Why Join ACM?</h2>
-        <div className="grid gap-4 sm:grid-cols-2">\
+        <div className="grid gap-4 sm:grid-cols-2">
           {[
             { emoji: "👥", title: "Community", desc: "Connect with peers who share your passion for tech" },
             { emoji: "🎓", title: "Learn", desc: "Access workshops, tutorials, and expert guidance" },
             { emoji: "💼", title: "Career Growth", desc: "Resume help, interviews, internship opportunities" },
             { emoji: "🎯", title: "Projects", desc: "Build real projects and strengthen your portfolio" },
+            { emoji: "🏆", title: "Competitions", desc: "Participate in hackathons and coding competitions" },
+            { emoji: "🤝", title: "Networking", desc: "Build relationships with industry professionals" },
           ].map((item, idx) => (
             <div key={idx} className="rounded-xl bg-white border-2 border-slate-200 p-5">
               <p className="text-3xl mb-2">{item.emoji}</p>
